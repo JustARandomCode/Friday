@@ -1,10 +1,7 @@
-# Friday
-AI Powered Voice Assistant
-Ever wished you had your own JARVIS like Iron Man? 🦾
-Meet Friday – a voice-controlled AI assistant powered by Llama2 and Python. Just say “Friday”, and it comes alive to help you with tasks, answer questions, and even hold conversations.
+Friday
+AI Powered Voice Assistant Ever wished you had your own JARVIS like Iron Man? 🦾 Meet Friday – a voice-controlled AI assistant powered by Llama2 and Python. Just say “Friday”, and it comes alive to help you with tasks, answer questions, and even hold conversations.
 
-# Features
-
+Features
 Voice Interaction – wake word: Friday
 
 Conversational AI – powered by Llama2 via Ollama
@@ -23,50 +20,34 @@ Music Playback – play songs from your local library
 
 🗂Error Handling & Type Annotations – clean and maintainable code
 
-# Tech Stack
-
+Tech Stack
 Python 3.10+
 
-SpeechRecognition
- – speech-to-text
+SpeechRecognition – speech-to-text
 
-gTTS
- – text-to-speech
+gTTS – text-to-speech
 
-playsound
- – audio playback
+playsound – audio playback
 
-pyautogui
- – system control
+pyautogui – system control
 
-requests
- – API calls
+requests – API calls
 
-wikipedia
- – knowledge search
+wikipedia – knowledge search
 
-Ollama
- – runs Llama2 locally for conversational intelligence
+Ollama – runs Llama2 locally for conversational intelligence
 
-OpenWeather API
- – real-time weather data
-
+OpenWeather API – real-time weather data
 
 Create a virtual environment (recommended)
 
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
+python -m venv venv source venv/bin/activate # Mac/Linux venv\Scripts\activate # Windows
 
-
-# Install dependencies
-
-# Usage
-
+Install dependencies
+Usage
 Run the assistant:
 
 python friday.py
-
 
 Then say:
 
@@ -79,9 +60,3 @@ Then say:
 “Friday, who is Albert Einstein?”
 
 “Friday, calculate 52 times 14.”
-
-
-
-🔄 Home automation integration (IoT)
-
-🔄 More natural co
