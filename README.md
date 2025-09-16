@@ -1,7 +1,7 @@
-Friday
+# Friday
 AI Powered Voice Assistant Ever wished you had your own JARVIS like Iron Man? 🦾 Meet Friday – a voice-controlled AI assistant powered by Llama2 and Python. Just say “Friday”, and it comes alive to help you with tasks, answer questions, and even hold conversations.
 
-Features
+# Features
 Voice Interaction – wake word: Friday
 
 Conversational AI – powered by Llama2 via Ollama
@@ -16,11 +16,12 @@ Voice Calculator – solve natural language math queries
 
 Music Playback – play songs from your local library
 
-🖥System Control – volume up, down, mute/unmute
+System Control – volume up, down, mute/unmute
 
-🗂Error Handling & Type Annotations – clean and maintainable code
+Error Handling & Type Annotations – clean and maintainable code
 
-Tech Stack
+# Tech Stack
+
 Python 3.10+
 
 SpeechRecognition – speech-to-text
@@ -43,8 +44,19 @@ Create a virtual environment (recommended)
 
 python -m venv venv source venv/bin/activate # Mac/Linux venv\Scripts\activate # Windows
 
-Install dependencies
-Usage
+# Install dependencies
+
+pip install SpeechRecognition gtts playsound==1.2.2 pyautogui
+
+pip install wikipedia requests ollama
+
+For AI features -
+  Install Ollama: https://ollama.ai/
+  For AI features - Pull Llama2: ollama pull llama2
+  For AI features - Start Ollama: ollama serve
+
+  
+# Usage
 Run the assistant:
 
 python friday.py
